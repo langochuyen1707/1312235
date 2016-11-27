@@ -4,6 +4,7 @@ margin: auto;
 width: 30% ;
 font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 
+border: 1px solid brown;
 }
 
 
@@ -14,7 +15,40 @@ color: #00B7FF;
 }
 
 
-.body h1
+.demo h1
 {
-color: red;
+text-align: center;
+margin-top: 10px;
+margin-bottom: 20px;
 }
+
+.demo label
+{
+margin-left: 30px;
+margin-top: 5px;
+margin-bottom: 5px;
+font-size: 20px;
+}
+
+.demo input
+{
+margin-top: 5px;
+margin-bottom: 5px;
+height: 40px;
+width: 200px;
+font-size: 20px;
+}
+
+.demo button
+{
+margin-top: 20px;
+margin-bottom: 30px;
+margin-left: 180px;
+height: 40px;
+width: 100px;
+font-size: 20px;
+background: green;
+color:white;
+}
+
+

@@ -1,11 +1,19 @@
 extends layout
 
 block content
-  <h1 class="body"> Tính tổng hai số</h1>
-  <label> Số thứ nhất </label>
-  <input/>
-  </br>
-  <label> Số thứ ha </label>
-  <input/> 
-  </br>
-  <button> Tính </button>
+	.demo.row
+		h1 Tính tổng hai số
+		.col-md-5
+			label Số thứ nhất
+			</br>
+			</br>
+			label Số thứ hai
+			</br>
+			</br>
+			label Kết quả
+			</br>
+		.col-md-7
+			input(type="text", placeholder="Số thứ nhất")
+			input(type="text", placeholder="Số thứ hai")		
+			input(type="text" disabled=true)
+		button Tính
